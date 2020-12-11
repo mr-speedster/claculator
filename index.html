@@ -13,6 +13,12 @@
             <div>
                 <input type="text" id="screen">
             </div>
+            <div>
+                <button onclick="clearDisplay()" class="buttn">c</button>
+                <button onclick="bclick('(')" class="buttn">(</button>
+                <button onclick="bclick(')')" class="buttn">)</button>
+                <button onclick="bclick('%')" class="buttn">%</button>
+            </div>
             <div class="key">
                 <button onclick="bclick(7)" class="buttn">7</button>
                 <button onclick="bclick(8)" class="buttn">8</button>
@@ -32,9 +38,9 @@
                 <button onclick="bclick('+')" class="buttn">+</button>
             </div>
             <div class="key">
-                <button onclick="equalclick('.')" class="buttn">=</button>
+                <button onclick="equalclick('=')" class="buttn">=</button>
                 <button onclick="bclick(0)" class="buttn">0</button>
-                <button onclick="bbclick('%')" class="buttn">.</button>
+                <button onclick="bclick('.')" class="buttn">.</button>
                 <button onclick="bclick('-')" class="buttn">-</button>
             </div>
         </div>
