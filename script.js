@@ -9,6 +9,6 @@ function clearDisplay()
 function equalclick()
 {
     var text=document.getElementById("screen").value
-    var result=eval(text)
+    var result=eval(text)//eval is pre-definrd function 
     document.getElementById('screen').value=result
 }
